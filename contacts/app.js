@@ -4,9 +4,13 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+
+
 var indexRouter = require('./routes/index');
 
 var app = express();
+
+//before engine setup
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
